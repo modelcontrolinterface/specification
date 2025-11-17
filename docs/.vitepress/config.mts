@@ -1,0 +1,60 @@
+import { defineConfig } from "vitepress";
+
+export default defineConfig({
+  srcDir: "",
+  cleanUrls: true,
+
+  base: "/specification",
+  title: "Model Control Interface",
+  description: "The model control interface specification",
+
+  locales: {
+    root: {
+      lang: "en",
+      label: "English",
+      link: "/en",
+    },
+    fr: {
+      lang: "fr",
+      label: "French",
+      link: "/fr",
+    },
+  },
+
+  themeConfig: {
+    search: {
+      provider: "local",
+    },
+
+    nav: [
+      // { text: "Home", link: "/" },
+      // { text: "Blog", link: "/blog" },
+      // { text: "Documentation", link: "/docs" },
+      // { text: "Specification", link: "/" },
+      // { text: "Community", link: "/community" },
+    ],
+
+    sidebar: [],
+
+    socialLinks: [
+      { icon: "github", link: "https://github.com/modelcontrolinterface" },
+    ],
+
+    // editLink: {
+    //   pattern:
+    //     "https://github.com/modelcontrolinterface/specifications/edit/main/:path",
+    //   text: "Edit this page",
+    // },
+
+    footer: {
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2025",
+    },
+  },
+
+  rewrites: {
+    ":lang/latest/:slug*": ":lang/:slug*",
+  },
+
+  lastUpdated: true,
+});
