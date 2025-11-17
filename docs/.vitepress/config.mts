@@ -40,11 +40,11 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/modelcontrolinterface" },
     ],
 
-    // editLink: {
-    //   pattern:
-    //     "https://github.com/modelcontrolinterface/specifications/edit/main/:path",
-    //   text: "Edit this page",
-    // },
+    editLink: {
+      pattern:
+        "https://github.com/modelcontrolinterface/specifications/edit/main/docs/:path",
+      text: "Edit this page",
+    },
 
     footer: {
       message: "Released under the MIT License.",
