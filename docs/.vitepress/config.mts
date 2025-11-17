@@ -12,7 +12,6 @@ export default defineConfig({
     root: {
       lang: "en",
       label: "English",
-      link: "/en",
     },
     fr: {
       lang: "fr",
@@ -53,6 +52,7 @@ export default defineConfig({
   },
 
   rewrites: {
+    "latest/:slug*": ":slug*",
     ":lang/latest/:slug*": ":lang/:slug*",
   },
 
