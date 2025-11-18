@@ -33,7 +33,7 @@ export default defineConfig({
       // { text: "Community", link: "/community" },
     ],
 
-    sidebar: [],
+    sidebar: [{ text: "Specification", link: "/" }],
 
     outline: {
       level: [2, 3],
