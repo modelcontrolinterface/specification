@@ -35,6 +35,10 @@ export default defineConfig({
 
     sidebar: [],
 
+    outline: {
+      level: [2, 3],
+    },
+
     socialLinks: [
       { icon: "github", link: "https://github.com/modelcontrolinterface" },
     ],
