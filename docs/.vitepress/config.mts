@@ -33,7 +33,13 @@ export default defineConfig({
       // { text: "Community", link: "/community" },
     ],
 
-    sidebar: [{ text: "Specification", link: "/" }],
+    sidebar: [
+      { text: "Specification", link: "/" },
+      {
+        text: "Architecture",
+        items: [{ text: "Overview", link: "/architecture" }],
+      },
+    ],
 
     outline: {
       level: [2, 3],
