@@ -34,7 +34,10 @@ export default defineConfig(
         { text: "Specification", link: "/" },
         {
           text: "Architecture",
-          items: [{ text: "Overview", link: "/architecture" }],
+          items: [
+            { text: "Overview", link: "/architecture" },
+            { text: "Life Cycle", link: "/architecture/lifecycle" },
+          ],
         },
       ],
 
