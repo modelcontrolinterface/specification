@@ -35,7 +35,7 @@ export default defineConfig(
         {
           text: "Architecture",
           items: [
-            { text: "Overview", link: "/architecture" },
+            { text: "Overview", link: "/architecture/" },
             { text: "Life Cycle", link: "/architecture/lifecycle" },
           ],
         },
