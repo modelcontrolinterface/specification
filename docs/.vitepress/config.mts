@@ -15,11 +15,6 @@ export default defineConfig(
         lang: "en",
         label: "English",
       },
-      fr: {
-        lang: "fr",
-        label: "French",
-        link: "/fr",
-      },
     },
 
     themeConfig: {
