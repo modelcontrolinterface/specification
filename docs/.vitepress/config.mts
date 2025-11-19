@@ -39,6 +39,10 @@ export default defineConfig(
             { text: "Life Cycle", link: "/architecture/lifecycle" },
           ],
         },
+        {
+          text: "Client",
+          items: [{ text: "Overview", link: "/client/" }],
+        },
       ],
 
       outline: {
